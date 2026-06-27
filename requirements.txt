@@ -1,0 +1,18 @@
+pandas
+mlflow == 2.2.2
+notebook
+numpy
+scikit-learn
+matplotlib
+python-box==6.0.2
+pyYAML
+tqdm
+ensure==1.0.2 # to make my code professioonal
+joblib
+types-PyYAML
+flask # will use flask for web app
+flask-Cors
+
+# folders for my local package
+-e . # this will look for setup.py file
+
