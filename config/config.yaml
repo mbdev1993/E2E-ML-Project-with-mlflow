@@ -8,3 +8,8 @@ data_ingestion:
   source_URL: https://github.com/mbdev1993/Branching-tutorial/raw/refs/heads/main/winequality-red.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion/unzipped
+
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_dir: artifacts/data_ingestion/unzipped/winequality-red.csv
+  status_file: artifacts/data_validation/status.txt
