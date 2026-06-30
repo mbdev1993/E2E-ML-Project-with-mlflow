@@ -12,5 +12,5 @@ COLUMNS:
   alcohol: float64
   quality: int
 
-  TARGET_COLUMN: 
-    name: quality
+TARGET_COLUMN: 
+  name: quality
